@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2 class="logo">Admin<span>Pro</span></h2>
+
+            <nav class="nav-links">
+
+                <a href="#" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Dashboard</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Users</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-box"></i>
+                    <span>Products</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Orders</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Revenue</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Analytics</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Navbar -->
+            <header class="top-navbar">
+
+                <div class="welcome">
+                    <h2>Dashboard</h2>
+                    <p>Welcome back, Admin!</p>
+                </div>
+
+                <div class="navbar-right">
+
+                    <input type="search" placeholder="Search here...">
+
+                    <div class="profile">
+                        <div class="avatar">A</div>
+
+                        <div>
+                            <h4>Admin User</h4>
+                            <p>Administrator</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Summary Cards -->
+            <section class="summary-cards">
+
+                <div class="card">
+                    <div class="card-info">
+                        <p>Total Users</p>
+                        <h2>12,450</h2>
+                        <span class="positive">↑ 12.5% this month</span>
+                    </div>
+                    <div class="card-icon purple">👥</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <p>Revenue</p>
+                        <h2>₹85,240</h2>
+                        <span class="positive">↑ 8.2% this month</span>
+                    </div>
+                    <div class="card-icon green">💰</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <p>Orders</p>
+                        <h2>1,245</h2>
+                        <span class="positive">↑ 5.4% this month</span>
+                    </div>
+                    <div class="card-icon orange">🛒</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <p>Growth</p>
+                        <h2>24.8%</h2>
+                        <span class="positive">↑ 3.1% this month</span>
+                    </div>
+                    <div class="card-icon blue">📈</div>
+                </div>
+
+            </section>
+
+
+            <!-- Recent Activities -->
+            <section class="activities">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Recent Activities</h2>
+                        <p>Here are the latest updates.</p>
+                    </div>
+
+                    <button class="view-btn">View All</button>
+                </div>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Activity</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <div class="user-info">
+                                        <div class="user-avatar">RK</div>
+                                        <span>Rahul Kumar</span>
+                                    </div>
+                                </td>
+                                <td>Purchased a product</td>
+                                <td>Sep 21, 2026</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="user-info">
+                                        <div class="user-avatar">SP</div>
+                                        <span>sneha Patel</span>
+                                    </div>
+                                </td>
+                                <td>Created a new account</td>
+                                <td>Sep 20, 2026</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="user-info">
+                                        <div class="user-avatar">AK</div>
+                                        <span>Arun Kumar</span>
+                                    </div>
+                                </td>
+                                <td>Updated profile</td>
+                                <td>Sep 19, 2026</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="user-info">
+                                        <div class="user-avatar">PM</div>
+                                        <span>Priya Mehta</span>
+                                    </div>
+                                </td>
+                                <td>Placed a new order</td>
+                                <td>Sep 18, 2026</td>
+                                <td><span class="status cancelled">Cancelled</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="user-info">
+                                        <div class="user-avatar">VS</div>
+                                        <span>Vijay Sharma</span>
+                                    </div>
+                                </td>
+                                <td>Completed payment</td>
+                                <td>Sep 17, 2026</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
